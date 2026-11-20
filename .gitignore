@@ -1,0 +1,5 @@
+/sshm
+/sshm-v*
+*.enc
+*.tmp
+/dist/

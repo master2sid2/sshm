@@ -1,0 +1,11 @@
+# Made-up hosts for the README demo (make demo). Only web-01 exists: a
+# throwaway container started for the recording.
+Include config.d/*.conf
+
+Host backup
+  HostName 10.0.3.5
+  User root
+  IdentityFile ~/.ssh/id_ed25519
+
+Host *
+  ServerAliveInterval 30
